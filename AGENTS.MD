@@ -45,7 +45,7 @@ These modules handle specific categories of suggestions that can be called upon 
 
 1. **Research:** Agents search the web for suggestions and detailed information.
 2. **Context Passing:** If any agent lacks context, the `travel-agent` is responsible for asking the user clarifying questions and passing the retrieved context to the correct specialist agent.
-3. **Saving:** Upon completion of the planning phase, the entire research/planning must be saved as a `readme.md` file in the following structure:
+3. **Saving:** Upon completion of the planning phase, the entire research/planning must be saved as a `{country_name}-{arrivaldate}.md` file in the following structure:
     `/destinations/{country_name}/`
     *(The `{country_name}` folder will be created if it doesn't already exist.)*
     *(Make sure to create a new version in the `{country_name}` folder if there already exists a travel plan)*
